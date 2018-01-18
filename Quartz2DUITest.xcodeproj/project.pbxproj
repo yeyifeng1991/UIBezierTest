@@ -15,6 +15,8 @@
 		0F32426520107E1400E321F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F32426420107E1400E321F8 /* main.m */; };
 		0F32426F20107E1400E321F8 /* Quartz2DUITestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F32426E20107E1400E321F8 /* Quartz2DUITestTests.m */; };
 		0F32427A20107E1400E321F8 /* Quartz2DUITestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F32427920107E1400E321F8 /* Quartz2DUITestUITests.m */; };
+		0F32428920107EE700E321F8 /* cyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F32428820107EE700E321F8 /* cyView.m */; };
+		0F32428B20108B7400E321F8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F32428A20108B7400E321F8 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		0F32427520107E1400E321F8 /* Quartz2DUITestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quartz2DUITestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F32427920107E1400E321F8 /* Quartz2DUITestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz2DUITestUITests.m; sourceTree = "<group>"; };
 		0F32427B20107E1400E321F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F32428720107EE700E321F8 /* cyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cyView.h; sourceTree = "<group>"; };
+		0F32428820107EE700E321F8 /* cyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cyView.m; sourceTree = "<group>"; };
+		0F32428A20108B7400E321F8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		0F32425420107E1400E321F8 /* Quartz2DUITest */ = {
 			isa = PBXGroup;
 			children = (
+				0F32428A20108B7400E321F8 /* 1.png */,
 				0F32425520107E1400E321F8 /* AppDelegate.h */,
 				0F32425620107E1400E321F8 /* AppDelegate.m */,
 				0F32425820107E1400E321F8 /* ViewController.h */,
 				0F32425920107E1400E321F8 /* ViewController.m */,
+				0F32428720107EE700E321F8 /* cyView.h */,
+				0F32428820107EE700E321F8 /* cyView.m */,
 				0F32425B20107E1400E321F8 /* Main.storyboard */,
 				0F32425E20107E1400E321F8 /* Assets.xcassets */,
 				0F32426020107E1400E321F8 /* LaunchScreen.storyboard */,
@@ -239,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F32426220107E1400E321F8 /* LaunchScreen.storyboard in Resources */,
+				0F32428B20108B7400E321F8 /* 1.png in Resources */,
 				0F32425F20107E1400E321F8 /* Assets.xcassets in Resources */,
 				0F32425D20107E1400E321F8 /* Main.storyboard in Resources */,
 			);
@@ -267,6 +276,7 @@
 			files = (
 				0F32425A20107E1400E321F8 /* ViewController.m in Sources */,
 				0F32426520107E1400E321F8 /* main.m in Sources */,
+				0F32428920107EE700E321F8 /* cyView.m in Sources */,
 				0F32425720107E1400E321F8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
